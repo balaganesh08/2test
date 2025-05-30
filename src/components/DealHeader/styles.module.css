@@ -1,0 +1,227 @@
+/* DealHeader styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #F8FAFC;
+  border-bottom: 1px solid #E2E8F0;
+  padding: 16px 24px;
+  margin: 0 auto;
+  gap: 16px;
+}
+
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 100%;
+}
+
+.customerInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.customerName {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1E293B;
+  line-height: 24px;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.companyName {
+  font-size: 12px;
+  color: #64748B;
+  line-height: 16px;
+  font-weight: 400;
+  margin-top: 2px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+
+.iconButton {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #E2E8F0;
+  border-radius: 6px;
+  background: #FFF;
+  color: #64748B;
+  cursor: pointer;
+  transition: all 0.2s;
+  padding: 0;
+}
+
+.iconButton:hover {
+  background-color: #f8fafc;
+  color: #475569;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+.chatButton {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 36px;
+  padding: 0 12px;
+  background: #FFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 6px;
+  color: #1E293B;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+  font-family: 'Inter', sans-serif;
+}
+
+.chatButton:hover {
+  background-color: #f8fafc;
+  border-color: #cbd5e1;
+}
+
+.advanceButton {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 36px;
+  padding: 0 12px;
+  background: #0284C7;
+  border: none;
+  border-radius: 6px;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  white-space: nowrap;
+  font-family: 'Inter', sans-serif;
+}
+
+.advanceButton:hover {
+  background-color: #0369a1;
+}
+
+.contactInfo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 24px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 100%;
+  font-size: 12px;
+  color: #64748B;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #475569;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  white-space: nowrap;
+}
+
+.propertyDetails {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin: 0 24px;
+  position: relative;
+  padding: 0 24px;
+}
+
+.propertyDetails::before,
+.propertyDetails::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 12px;
+  background-color: #E2E8F0;
+}
+
+.propertyDetails::before {
+  left: 0;
+}
+
+.propertyDetails::after {
+  right: 0;
+}
+
+.propertyItem {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #1E293B;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.propertyIcon {
+  color: #94A3B8;
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+}
+
+.propertyValue {
+  font-size: 12px;
+  line-height: 16px;
+  color: #1E293B;
+  font-weight: 500;
+}
+
+.contactInfoRight {
+  display: flex;
+  gap: 24px;
+  margin-left: auto;
+}
+
+.contactIcon {
+  color: #94A3B8;
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+/* Ensure the icon in the chat button is properly sized */
+.chatButton .icon {
+  width: 14px;
+  height: 14px;
+}
+
+/* Ensure the icon in the advance button is properly sized */
+.advanceButton .icon {
+  width: 14px;
+  height: 14px;
+}

@@ -1,0 +1,146 @@
+/* DealsTable.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  width: 100%;
+  flex-grow: 1;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+}
+
+.tableHeader {
+  background-color: #fafafa;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.tableRow {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.tableCell {
+  height: 2.75rem;
+  padding: 0.5rem;
+}
+
+.tableCellContent {
+  padding: 0.75rem 0.5rem;
+  height: 2.75rem;
+}
+
+.checkboxCell {
+  padding: 0.5rem;
+}
+
+.checkbox {
+  border-radius: 0.25rem;
+  border-color: #94a3b8;
+}
+
+.headerCell {
+  padding: 0.5rem;
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.headerText {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #737373;
+  white-space: nowrap;
+}
+
+.sortIcon {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.cellText {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #262626;
+  white-space: nowrap;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.375rem 0.5rem;
+  background-color: white;
+  border-radius: 0.375rem;
+  color: #0891b2;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.stageIndicator {
+  width: 1rem;
+  height: 1rem;
+  background-color: white;
+  border-radius: 32px;
+  overflow: hidden;
+  border: 1px solid #0891b2;
+}
+
+.stageIndicatorInner {
+  width: 0.625rem;
+  height: 0.625rem;
+  background-color: #0891b2;
+  border-radius: 5px;
+  margin-left: 3px;
+  margin-top: 3px;
+}
+
+.contactContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.phoneIcon {
+  display: flex;
+  align-items: center;
+  padding: 0.125rem;
+  background-color: #e0f2fe;
+  border-radius: 0.25rem;
+}
+
+.phoneIconImage {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.contactText {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #0284c7;
+  white-space: nowrap;
+}
+
+.actionIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  display: inline;
+}
+
+.rightAligned {
+  text-align: right;
+}
+
+.timerIcon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.newLeadIcon {
+  color: #0891B2;
+}

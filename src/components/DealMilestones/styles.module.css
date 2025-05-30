@@ -1,0 +1,38 @@
+/* DealMilestones styles */
+.container {
+  background: #fff;
+  margin: 16px 32px 150px 0;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.titleWrapper {
+  flex: 1;
+}
+
+.title {
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+
+.progressText {
+  color: #64748b;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.stepsContainer {
+  margin-top: 16px;
+} 

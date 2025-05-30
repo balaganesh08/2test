@@ -1,0 +1,59 @@
+/* ApplicationHeader.module.css */
+
+.header {
+  width: 100%;
+  min-height: 57px;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem; /* 32px */
+  background-color: white;
+  border-bottom: 1px solid var(--neutral-200, #e5e7eb);
+}
+
+/* Breadcrumb styles */
+.breadcrumbList {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumbItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.breadcrumbLink {
+  color: var(--primary-600, #2563eb);
+  text-decoration: none;
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  transition: color 0.2s;
+}
+
+.breadcrumbLink:hover {
+  color: var(--primary-700, #1d4ed8);
+  text-decoration: underline;
+}
+
+.breadcrumbPage {
+  color: var(--neutral-700, #374151);
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  font-weight: 500;
+}
+
+.separator {
+  color: var(--neutral-400, #9ca3af);
+  display: flex;
+  align-items: center;
+}
+
+.separatorIcon {
+  width: 1rem; /* 16px */
+  height: 1rem; /* 16px */
+  color: var(--neutral-400, #9ca3af);
+}

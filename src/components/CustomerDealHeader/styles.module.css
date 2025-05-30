@@ -1,0 +1,126 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.customerName {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.iconButton {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #E2E8F0;
+  border-radius: 4px;
+  background: #fff;
+  color: #64748b;
+  cursor: pointer;
+  padding: 0;
+}
+
+.iconButton:hover {
+  background-color: #f8fafc;
+}
+
+.chatButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 36px;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 0 12px;
+  background: #fff;
+  font-size: 14px;
+  color: #64748b;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.chatButton:hover {
+  background-color: #f8fafc;
+}
+
+.advanceButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 36px;
+  background: #0284c7;
+  color: #fff;
+  border-radius: 6px;
+  padding: 0 12px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.advanceButton:hover {
+  background-color: #0369a1;
+}
+
+.menuButton {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  color: #64748b;
+  padding: 0;
+}
+
+.companyName {
+  color: var(--text-secondary, #64748b);
+  font-size: 14px;
+}
+
+.contactInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--text-secondary, #64748b);
+  font-size: 14px;
+  margin-top: 4px;
+  flex-wrap: wrap;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: #0284c7;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

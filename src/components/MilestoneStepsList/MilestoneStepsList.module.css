@@ -1,0 +1,212 @@
+/* MilestoneStepsList.module.css */
+
+/* Container Styles */
+.container {
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.container.completed {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+}
+
+.container.default {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 4px 0;
+  width: 100%;
+}
+
+.headerContent {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  flex: 1;
+}
+
+/* Title Styles */
+.titleContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 2px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.title.completed {
+  color: #4b5563;
+}
+
+.title.default {
+  color: #111827;
+}
+
+.statusBadge {
+  font-size: 12px;
+  line-height: 16px;
+  color: #2563eb;
+  background: #eff6ff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+/* Progress Text */
+.progressText {
+  color: #6b7280;
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 2px;
+}
+
+/* Timestamp */
+.timestamp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.timeAgo {
+  font-size: 12px;
+  color: #9ca3af;
+  font-style: italic;
+  white-space: nowrap;
+  line-height: 16px;
+}
+
+/* Steps List */
+.stepsList {
+  margin-top: 12px;
+}
+
+.stepItem {
+  position: relative;
+  padding-left: 12px;
+  margin-left: 4px;
+}
+
+.connectorLine {
+  position: absolute;
+  top: 28px;
+  left: 20px;
+  width: 1px;
+  height: calc(100% - 12px);
+  z-index: 1;
+}
+
+.connectorLine.completed {
+  background-color: #10b981;
+}
+
+.connectorLine.default {
+  background-color: #e5e7eb;
+}
+
+.stepContent {
+  display: flex;
+  align-items: flex-start;
+  padding: 8px 0;
+  gap: 12px;
+  position: relative;
+  z-index: 2;
+}
+
+.stepDetails {
+  flex: 1;
+  padding-bottom: 16px;
+}
+
+.stepDetails:last-child {
+  padding-bottom: 0;
+}
+
+.stepHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.stepTitleContainer {
+  display: flex;
+  align-items: center;
+}
+
+.stepTitle {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.stepTitle.completed {
+  color: #10b981;
+}
+
+.stepTitle.current {
+  color: #111827;
+}
+
+.stepTitle.default {
+  color: #4b5563;
+}
+
+.currentBadge {
+  margin-left: 8px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #2563eb;
+  background: #eff6ff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.markAsDoneButton {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: transparent;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 12px;
+  color: #4b5563;
+  cursor: pointer;
+}
+
+.stepDescription {
+  color: #6b7280;
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 8px;
+}
+
+.completedInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #4b5563;
+}
+
+.viewDetailsLink {
+  color: #2563eb;
+  text-decoration: none;
+}

@@ -1,0 +1,234 @@
+/* ConversionSteps styles */
+.container {
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #e2e8f0;
+  padding: 16px;
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 8px;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.conversionTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.dropdownToggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #64748b;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdownToggle:hover {
+  color: #0f172a;
+}
+
+.stepHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.stepsContainer {
+  margin-top: 12px;
+}
+
+.stepItem {
+  position: relative;
+  padding-left: 8px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.stepConnectingLine {
+  position: absolute;
+  top: 18px;
+  left: 8px;
+  width: 1px;
+  height: calc(100% - 10px);
+  background-color: #e2e8f0;
+  z-index: 1;
+}
+
+.stepContent {
+  display: flex;
+  align-items: flex-start;
+  padding: 8px 0;
+  gap: 8px;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+.stepIcon {
+  margin-top: 2px;
+}
+
+.stepCircle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stepTextContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.stepRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.stepTitle {
+  font-weight: 500;
+  color: #0f172a;
+  font-size: 14px;
+}
+
+.currentStep .stepTitle {
+  color: #0284c7;
+}
+
+.completedStep .stepTitle {
+  color: #16a34a;
+}
+
+.stepDescription {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.currentBadge {
+  margin-left: 8px;
+  font-size: 12px;
+  color: #0284c7;
+  background: #f0f9ff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.statusIndicator {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.ongoingStatus {
+  color: #ef4444;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ongoingDot {
+  width: 16px;
+  height: 16px;
+  background-image: url('/dealisongoing.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.ongoingText {
+  font-size: 0.75rem; /* x-small size */
+  color: #4b5563; /* Optional: adjust color to match your design */
+}
+
+.completionStatus {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.actionsContainer {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.markAsDoneButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  background-color: white;
+  color: #0f172a;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  gap: 4px;
+  height: 32px;
+}
+
+.continueButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0284c7;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  gap: 4px;
+  height: 32px;
+}
+
+.noteButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  background-color: white;
+  color: #64748b;
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+}
+
+.currentStep .stepCircle {
+  border: 2px solid #0891b2;
+}
+
+.upcomingStep .stepCircle {
+  border: 1px dashed #e2e8f0;
+}
+
+.currentStep {
+  background-color: #f8fafc;
+  padding: 8px;
+  border-radius: 4px;
+} 

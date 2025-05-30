@@ -1,0 +1,70 @@
+/* DetailsTab styles */
+.section {
+  margin-bottom: 32px;
+}
+
+.sectionTitle {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.fieldLabel {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.fieldValue {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.percentageBadge {
+  background: #f1f5f9;
+  color: #0f172a;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 2px 8px;
+  margin-left: 8px;
+}
+
+.amountWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.amountValue {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.paymentButton {
+  width: 100%;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 10px 0;
+  background: #f8fafc;
+  color: #94a3b8;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: not-allowed;
+}
+
+.projectDetails {
+  display: grid;
+  gap: 16px;
+}
+
+.projectDetail {
+  font-weight: 500;
+}
+
+.projectDetailRow {
+  display: flex;
+  gap: 24px;
+} 

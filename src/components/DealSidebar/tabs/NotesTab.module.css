@@ -1,0 +1,207 @@
+/* NotesTab.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.tabContent {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 16px;
+}
+
+/* Site Visit Styles */
+.siteVisitContainer {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.siteVisitHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.siteVisitDot {
+  width: 8px;
+  height: 8px;
+  background-color: #718096;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.siteVisitTitle {
+  font-weight: 500;
+  font-size: 15px;
+  color: #1a202c;
+}
+
+.siteVisitDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 16px;
+  margin-bottom: 12px;
+}
+
+.siteVisitRow {
+  display: flex;
+  align-items: flex-start;
+}
+
+.siteVisitLabel {
+  width: 80px;
+  color: #718096;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.calendarIcon,
+.clockIcon,
+.notesIcon {
+  margin-right: 4px;
+  font-size: 14px;
+}
+
+.siteVisitValue {
+  color: #1a202c;
+  font-size: 14px;
+  flex: 1;
+}
+
+.addMeasurementsButton {
+  align-self: flex-start;
+  margin-left: 16px;
+  padding: 8px 16px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  color: #4a5568;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+  margin-bottom: 8px;
+}
+
+.addMeasurementsButton:hover {
+  background: #f7fafc;
+  border-color: #cbd5e0;
+}
+
+.siteVisitTimestamp {
+  margin-left: 16px;
+  font-size: 12px;
+  color: #a0aec0;
+}
+
+/* Notes Editor Styles */
+.noteInputContainer {
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: auto;
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+}
+
+.notesToolbar {
+  display: flex;
+  padding: 8px;
+  border-bottom: 1px solid #e2e8f0;
+  background-color: #f8fafc;
+}
+
+.toolbarButton {
+  background: none;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  color: #4a5568;
+  font-size: 14px;
+  margin-right: 4px;
+  border-radius: 4px;
+}
+
+.toolbarButton:hover {
+  background-color: #e2e8f0;
+}
+
+.notesTextarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  font-size: 14px;
+  min-height: 100px;
+  resize: vertical;
+  outline: none;
+}
+
+.notesActions {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.cancelButton {
+  padding: 8px 16px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  color: #4a5568;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.cancelButton:hover {
+  background: #f7fafc;
+}
+
+.saveButton {
+  padding: 8px 24px;
+  background: #4299e1;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.saveButton:hover {
+  background: #3182ce;
+}
+
+.notesList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.noteCard {
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.noteContent {
+  margin-bottom: 8px;
+}
+
+.noteFooter {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #64748b;
+}
