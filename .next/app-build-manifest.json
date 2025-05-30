@@ -21,8 +21,8 @@
     "/deals/[dealId]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/deals/[dealId]/page.css",
-      "static/chunks/app/deals/[dealId]/page.js"
+      "static/chunks/app/deals/[dealId]/page.js",
+      "static/css/app/deals/[dealId]/page.css"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
