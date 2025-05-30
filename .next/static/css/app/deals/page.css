@@ -1,0 +1,476 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/layout/styles.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+/* Sidebar css */
+.styles_sidebar__6hKGm {
+    display: flex;
+    flex-direction: column;
+    width: 56px;
+    height: 100%;
+    gap: 0.75rem;
+    padding: 0.75rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-right: 1px solid #e2e8f0;
+    align-items: center;
+  }
+  
+  .styles_logoContainer__3P5V4 {
+    position: relative;
+    width: 32px;
+    height: 32px;
+  }
+  
+  .styles_logoImage__mn2sB {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 4px;
+    left: 4px;
+  }
+  
+  .styles_navContainer__mursT {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .styles_userContainer__1FyDd {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .styles_avatar__dZmwK {
+    width: 32px;
+    height: 32px;
+    background-color: #f5f5f5;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+  }
+  
+  .styles_avatarFallback__6_usc {
+    font-size: 0.75rem;
+    color: #374151;
+  }
+  
+  .styles_sidebarButton__uISdf {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .styles_sidebarButtonGhost__CAN_W {
+    border-radius: 0.375rem;
+  }
+  
+  .styles_sidebarButtonSecondary__JWeJr {
+    border-radius: 0.5rem;
+  }
+  
+  .styles_selected__aW6ti {
+    background-color: #f1f5f9;
+  }
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/features/pageComponents/Deals/dealComponents/DealsHeader/styles.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* DealsHeader.module.css */
+.styles_header__UPEA4 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.styles_searchContainer__4xVyE {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.styles_searchWrapper__mfV8f {
+  position: relative;
+  width: 312px;
+}
+
+.styles_searchIconWrapper__f6R7h {
+  position: absolute;
+  left: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #a3a3a3;
+}
+
+.styles_searchInput__N1asS {
+  padding-left: 2rem;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+  border-color: #cbd5e1;
+}
+
+.styles_notificationButton__nG_1L {
+  padding: 0.5rem;
+  border-color: #cbd5e1;
+}
+
+.styles_breadcrumbHome__EJXxA {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #737373;
+}
+
+.styles_breadcrumbDeals__P__Pd {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #262626;
+}
+
+.styles_icon__eD0ca {
+  width: 1rem;
+  height: 1rem;
+}
+
+.styles_smallIcon__sT3jq {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/features/pageComponents/Deals/dealComponents/DealsFilterBar/styles.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* DealsFilterBar.module.css */
+.styles_container__pjZZr {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+}
+
+.styles_filterContainer__Sw0ML {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.styles_dropdownButton__uTC3v {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.375rem 0.75rem;
+  height: auto;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #262626;
+}
+
+.styles_filterButton__hQ7Xl {
+  padding: 0.375rem 1rem;
+  height: auto;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #262626;
+}
+
+.styles_icon__xkqir {
+  height: 0.75rem;
+  width: 0.75rem;
+  margin-right: 0.25rem;
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/features/pageComponents/Deals/dealComponents/DealsTable/styles.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* DealsTable.module.css */
+.styles_container__JS1hc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  width: 100%;
+  flex-grow: 1;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+}
+
+.styles_tableHeader__ED7I3 {
+  background-color: #fafafa;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.styles_tableRow__LHE4i {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.styles_tableCell__ltXNg {
+  height: 2.75rem;
+  padding: 0.5rem;
+}
+
+.styles_tableCellContent__zsgI9 {
+  padding: 0.75rem 0.5rem;
+  height: 2.75rem;
+}
+
+.styles_checkboxCell__r6CUB {
+  padding: 0.5rem;
+}
+
+.styles_checkbox__Ini22 {
+  border-radius: 0.25rem;
+  border-color: #94a3b8;
+}
+
+.styles_headerCell__kAM0L {
+  padding: 0.5rem;
+}
+
+.styles_headerContent__hArEx {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.styles_headerText__PqymT {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #737373;
+  white-space: nowrap;
+}
+
+.styles_sortIcon__WtFbA {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.styles_cellText__NWKsV {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #262626;
+  white-space: nowrap;
+}
+
+.styles_badge__LbMVd {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.375rem 0.5rem;
+  background-color: white;
+  border-radius: 0.375rem;
+  color: #0891b2;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.styles_stageIndicator__kUZFZ {
+  width: 1rem;
+  height: 1rem;
+  background-color: white;
+  border-radius: 32px;
+  overflow: hidden;
+  border: 1px solid #0891b2;
+}
+
+.styles_stageIndicatorInner__B_nSw {
+  width: 0.625rem;
+  height: 0.625rem;
+  background-color: #0891b2;
+  border-radius: 5px;
+  margin-left: 3px;
+  margin-top: 3px;
+}
+
+.styles_contactContainer__jJ_q_ {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.styles_phoneIcon__il49h {
+  display: flex;
+  align-items: center;
+  padding: 0.125rem;
+  background-color: #e0f2fe;
+  border-radius: 0.25rem;
+}
+
+.styles_phoneIconImage__GySnq {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.styles_contactText__NGj9u {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #0284c7;
+  white-space: nowrap;
+}
+
+.styles_actionIcon__Lx904 {
+  width: 1.25rem;
+  height: 1.25rem;
+  display: inline;
+}
+
+.styles_rightAligned__xXrH0 {
+  text-align: right;
+}
+
+.styles_timerIcon__DkWKR {
+  width: 1rem;
+  height: 1rem;
+}
+
+.styles_newLeadIcon__oHN9q {
+  color: #0891B2;
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/DealStageMenu/styles.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+/* DealStageMenu styles */
+.styles_triggerButton__kzyxf {
+  height: 2rem;
+  width: 2rem;
+  padding: 0;
+}
+
+.styles_menuContent__hxy4o {
+  width: 200px;
+}
+
+.styles_menuItem__fjI97 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.2s;
+}
+
+.styles_menuItem__fjI97:hover {
+  background-color: #f8fafc;
+}
+
+.styles_menuItem__fjI97:focus {
+  background-color: #f1f5f9;
+}
+
+.styles_icon__JHvx8 {
+  height: 1rem;
+  width: 1rem;
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/features/pageComponents/Deals/dealComponents/DealsPagination/styles.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* DealsPagination.module.css */
+.styles_container__AuM_s {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.styles_paginationLeft__ery86 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.styles_paginationRight__L170q {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.styles_paginationText__296Q1 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+.styles_selectTrigger__3FLhG {
+  height: 2rem;
+  width: 70px;
+  border-color: #cbd5e1;
+}
+
+.styles_paginationButton__6ABPS {
+  height: 2rem;
+  border-color: #cbd5e1;
+}
+
+.styles_disabledButton__p1yh3 {
+  opacity: 0.5;
+}
+
+.styles_icon__yoCkd {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 0.25rem;
+}
+
+.styles_iconRight__8Lr8e {
+  height: 1rem;
+  width: 1rem;
+  margin-left: 0.25rem;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/features/pageComponents/Deals/styles.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+/* DealsPage css */
+.styles_container__4POby {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  overflow: hidden;
+}
+
+.styles_wrapper__ysPSs {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.styles_mainContent__AwdTw {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 56px);
+  height: calc(100% - 57px);
+  gap: 1rem;
+  padding: 1rem;
+  position: absolute;
+  top: 57px;
+  left: 56px;
+}
+

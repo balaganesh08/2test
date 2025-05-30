@@ -1,0 +1,1284 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/layout/styles.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+/* Sidebar css */
+.styles_sidebar__6hKGm {
+    display: flex;
+    flex-direction: column;
+    width: 56px;
+    height: 100%;
+    gap: 0.75rem;
+    padding: 0.75rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-right: 1px solid #e2e8f0;
+    align-items: center;
+  }
+  
+  .styles_logoContainer__3P5V4 {
+    position: relative;
+    width: 32px;
+    height: 32px;
+  }
+  
+  .styles_logoImage__mn2sB {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 4px;
+    left: 4px;
+  }
+  
+  .styles_navContainer__mursT {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .styles_userContainer__1FyDd {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .styles_avatar__dZmwK {
+    width: 32px;
+    height: 32px;
+    background-color: #f5f5f5;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+  }
+  
+  .styles_avatarFallback__6_usc {
+    font-size: 0.75rem;
+    color: #374151;
+  }
+  
+  .styles_sidebarButton__uISdf {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .styles_sidebarButtonGhost__CAN_W {
+    border-radius: 0.375rem;
+  }
+  
+  .styles_sidebarButtonSecondary__JWeJr {
+    border-radius: 0.5rem;
+  }
+  
+  .styles_selected__aW6ti {
+    background-color: #f1f5f9;
+  }
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/ApplicationHeader.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+/* ApplicationHeader.module.css */
+
+.ApplicationHeader_header__Khpfk {
+  width: 100%;
+  min-height: 57px;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem; /* 32px */
+  background-color: white;
+  border-bottom: 1px solid var(--neutral-200, #e5e7eb);
+}
+
+/* Breadcrumb styles */
+.ApplicationHeader_breadcrumbList__cv13s {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ApplicationHeader_breadcrumbItem__UJ6Vg {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ApplicationHeader_breadcrumbLink__ACE_x {
+  color: var(--primary-600, #2563eb);
+  text-decoration: none;
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  transition: color 0.2s;
+}
+
+.ApplicationHeader_breadcrumbLink__ACE_x:hover {
+  color: var(--primary-700, #1d4ed8);
+  text-decoration: underline;
+}
+
+.ApplicationHeader_breadcrumbPage__Nt_3i {
+  color: var(--neutral-700, #374151);
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  font-weight: 500;
+}
+
+.ApplicationHeader_separator__VmgAi {
+  color: var(--neutral-400, #9ca3af);
+  display: flex;
+  align-items: center;
+}
+
+.ApplicationHeader_separatorIcon__iLYfx {
+  width: 1rem; /* 16px */
+  height: 1rem; /* 16px */
+  color: var(--neutral-400, #9ca3af);
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/DealHeader/styles.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+/* DealHeader styles */
+.styles_container__bhaxG {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #F8FAFC;
+  border-bottom: 1px solid #E2E8F0;
+  padding: 16px 24px;
+  margin: 0 auto;
+  gap: 16px;
+}
+
+.styles_headerTop__arzCc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 100%;
+}
+
+.styles_customerInfo__hS7IF {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.styles_customerName__b9KDU {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1E293B;
+  line-height: 24px;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.styles_companyName__i4DXf {
+  font-size: 12px;
+  color: #64748B;
+  line-height: 16px;
+  font-weight: 400;
+  margin-top: 2px;
+}
+
+.styles_actions__OUrPZ {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+
+.styles_iconButton___HRwc {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #E2E8F0;
+  border-radius: 6px;
+  background: #FFF;
+  color: #64748B;
+  cursor: pointer;
+  transition: all 0.2s;
+  padding: 0;
+}
+
+.styles_iconButton___HRwc:hover {
+  background-color: #f8fafc;
+  color: #475569;
+}
+
+.styles_icon__mGEN8 {
+  width: 16px;
+  height: 16px;
+}
+
+.styles_chatButton__zWrTk {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 36px;
+  padding: 0 12px;
+  background: #FFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 6px;
+  color: #1E293B;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+  font-family: 'Inter', sans-serif;
+}
+
+.styles_chatButton__zWrTk:hover {
+  background-color: #f8fafc;
+  border-color: #cbd5e1;
+}
+
+.styles_advanceButton__QCzzj {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 36px;
+  padding: 0 12px;
+  background: #0284C7;
+  border: none;
+  border-radius: 6px;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  white-space: nowrap;
+  font-family: 'Inter', sans-serif;
+}
+
+.styles_advanceButton__QCzzj:hover {
+  background-color: #0369a1;
+}
+
+.styles_contactInfo__qVcR4 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 24px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 100%;
+  font-size: 12px;
+  color: #64748B;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.styles_contactItem__M821C {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #475569;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  white-space: nowrap;
+}
+
+.styles_propertyDetails__e5v41 {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin: 0 24px;
+  position: relative;
+  padding: 0 24px;
+}
+
+.styles_propertyDetails__e5v41::before,
+.styles_propertyDetails__e5v41::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 12px;
+  background-color: #E2E8F0;
+}
+
+.styles_propertyDetails__e5v41::before {
+  left: 0;
+}
+
+.styles_propertyDetails__e5v41::after {
+  right: 0;
+}
+
+.styles_propertyItem__e9bC9 {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #1E293B;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.styles_propertyIcon__ffbJv {
+  color: #94A3B8;
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+}
+
+.styles_propertyValue__uN_Ur {
+  font-size: 12px;
+  line-height: 16px;
+  color: #1E293B;
+  font-weight: 500;
+}
+
+.styles_contactInfoRight__pwQEJ {
+  display: flex;
+  gap: 24px;
+  margin-left: auto;
+}
+
+.styles_contactIcon__l2dfI {
+  color: #94A3B8;
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+/* Ensure the icon in the chat button is properly sized */
+.styles_chatButton__zWrTk .styles_icon__mGEN8 {
+  width: 14px;
+  height: 14px;
+}
+
+/* Ensure the icon in the advance button is properly sized */
+.styles_advanceButton__QCzzj .styles_icon__mGEN8 {
+  width: 14px;
+  height: 14px;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/MilestoneProgressBar/styles.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************/
+/* MilestoneProgressBar styles */
+.styles_container__66k0o {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 8px 0;
+}
+
+.styles_stageContainer__4sqd_ {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.styles_stageContainer__4sqd_:hover {
+  transform: translateY(-2px);
+}
+
+.styles_stageContainer__4sqd_:active {
+  transform: translateY(0);
+}
+
+.styles_stageContainer__4sqd_:focus-visible {
+  outline: 2px solid #4f46e5;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.styles_stageContainer__4sqd_.styles_activeStage__maCgp {
+  z-index: 2;
+}
+
+.styles_stageImage__mdS_B {
+  height: 24px;
+  width: 176px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: block;
+}
+
+.styles_stageText__idBtd {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 176px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  z-index: 1;
+  transition: all 0.2s ease;
+}
+
+.styles_stageTextCompleted__vvaoJ {
+  color: #fff;
+  font-weight: 400;
+}
+
+.styles_stageTextCurrent__Jk2Sb {
+  color: #22223B;
+  font-weight: 600;
+}
+
+.styles_stageTextUpcoming__H58KV {
+  color: #64748b;
+  font-weight: 400;
+}
+
+.styles_spacer__n3PDP {
+  width: 0;
+} 
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/LeadConversionSteps/styles.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/
+/* ConversionSteps styles */
+.styles_container__AfSGy {
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #e2e8f0;
+  padding: 16px;
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 8px;
+}
+
+.styles_titleContainer__wbpR_ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.styles_conversionTitle__55Mg4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.styles_dropdownToggle__V8Xx_ {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #64748b;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.styles_dropdownToggle__V8Xx_:hover {
+  color: #0f172a;
+}
+
+.styles_stepHeader__nn2jO {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.styles_stepsContainer__soFi5 {
+  margin-top: 12px;
+}
+
+.styles_stepItem__x4rgv {
+  position: relative;
+  padding-left: 8px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.styles_stepConnectingLine__IO2JU {
+  position: absolute;
+  top: 18px;
+  left: 8px;
+  width: 1px;
+  height: calc(100% - 10px);
+  background-color: #e2e8f0;
+  z-index: 1;
+}
+
+.styles_stepContent__scoCm {
+  display: flex;
+  align-items: flex-start;
+  padding: 8px 0;
+  gap: 8px;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+.styles_stepIcon__iXdTf {
+  margin-top: 2px;
+}
+
+.styles_stepCircle__7L6J5 {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.styles_stepTextContent__VrMgg {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.styles_stepRow__vOHvt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.styles_stepTitle__1otOH {
+  font-weight: 500;
+  color: #0f172a;
+  font-size: 14px;
+}
+
+.styles_currentStep__1G5TI .styles_stepTitle__1otOH {
+  color: #0284c7;
+}
+
+.styles_completedStep__Kyccz .styles_stepTitle__1otOH {
+  color: #16a34a;
+}
+
+.styles_stepDescription__ANnzK {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.styles_currentBadge__2hTLK {
+  margin-left: 8px;
+  font-size: 12px;
+  color: #0284c7;
+  background: #f0f9ff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.styles_statusIndicator__UkEaL {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.styles_ongoingStatus___TZg7 {
+  color: #ef4444;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.styles_ongoingDot__bpuhH {
+  width: 16px;
+  height: 16px;
+  background-image: url('/dealisongoing.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.styles_ongoingText__xPPCu {
+  font-size: 0.75rem; /* x-small size */
+  color: #4b5563; /* Optional: adjust color to match your design */
+}
+
+.styles_completionStatus__i8ZTN {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.styles_actionsContainer__ubCig {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.styles_markAsDoneButton__TP42p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  background-color: white;
+  color: #0f172a;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  gap: 4px;
+  height: 32px;
+}
+
+.styles_continueButton__H_K1_ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0284c7;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  gap: 4px;
+  height: 32px;
+}
+
+.styles_noteButton__zICMe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  background-color: white;
+  color: #64748b;
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+}
+
+.styles_currentStep__1G5TI .styles_stepCircle__7L6J5 {
+  border: 2px solid #0891b2;
+}
+
+.styles_upcomingStep__e7qVT .styles_stepCircle__7L6J5 {
+  border: 1px dashed #e2e8f0;
+}
+
+.styles_currentStep__1G5TI {
+  background-color: #f8fafc;
+  padding: 8px;
+  border-radius: 4px;
+} 
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/DealMilestones/styles.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+/* DealMilestones styles */
+.styles_container__lEkiN {
+  background: #fff;
+  margin: 16px 32px 150px 0;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.styles_header__g9y_U {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.styles_titleWrapper__JiP_e {
+  flex: 1;
+}
+
+.styles_title__0M6t_ {
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+
+.styles_progressText__9ct__ {
+  color: #64748b;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.styles_stepsContainer__ogtBL {
+  margin-top: 16px;
+} 
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/SidebarTabs/styles.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+/* SidebarTabs styles */
+.styles_container__zDxRB {
+  display: flex;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 0 24px;
+  margin-top: 0;
+}
+
+.styles_tabButton__U2Vyj {
+  padding: 16px 0;
+  background: none;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  color: #64748b;
+}
+
+.styles_tabButton__U2Vyj:not(:last-child) {
+  margin-right: 32px;
+}
+
+.styles_activeTab__F0VhK {
+  border-bottom: 2px solid #0284c7;
+  color: #0f172a;
+} 
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/DealSidebar/tabs/DetailsTab.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************/
+/* DetailsTab.module.css */
+
+.DetailsTab_section__bNcVA {
+  margin-bottom: 32px;
+}
+
+.DetailsTab_section__bNcVA:last-child {
+  margin-bottom: 0;
+}
+
+.DetailsTab_sectionTitle__tGkVC {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.DetailsTab_label__rAQ1x {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.DetailsTab_value__ecxaK {
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.DetailsTab_paymentAmount__VJULH {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.DetailsTab_percentageBadge__sRq9X {
+  background: #f1f5f9;
+  color: #0f172a;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 2px 8px;
+}
+
+.DetailsTab_requestPaymentButton__CqrFw {
+  width: 100%;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 10px 0;
+  background: #f8fafc;
+  color: #94a3b8;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: not-allowed;
+}
+
+.DetailsTab_detailsGrid__12hxw {
+  display: grid;
+  gap: 16px;
+}
+
+.DetailsTab_detailItem__lqtfX {
+  margin-bottom: 16px;
+}
+
+.DetailsTab_detailItem__lqtfX:last-child {
+  margin-bottom: 0;
+}
+
+.DetailsTab_doubleColumn__i9WtQ {
+  display: flex;
+  gap: 24px;
+}
+
+.DetailsTab_doubleColumnItem__w9YNl {
+  flex: 1;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/DealSidebar/tabs/NotesTab.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+/* NotesTab.module.css */
+
+.NotesTab_container__R1R83 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.NotesTab_tabContent__zHyXv {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 16px;
+}
+
+/* Site Visit Styles */
+.NotesTab_siteVisitContainer__OTl_z {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.NotesTab_siteVisitHeader__W_qXZ {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.NotesTab_siteVisitDot__XW9Wd {
+  width: 8px;
+  height: 8px;
+  background-color: #718096;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.NotesTab_siteVisitTitle__R9qmc {
+  font-weight: 500;
+  font-size: 15px;
+  color: #1a202c;
+}
+
+.NotesTab_siteVisitDetails__dlalC {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 16px;
+  margin-bottom: 12px;
+}
+
+.NotesTab_siteVisitRow__T2_qY {
+  display: flex;
+  align-items: flex-start;
+}
+
+.NotesTab_siteVisitLabel__QXMRs {
+  width: 80px;
+  color: #718096;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.NotesTab_calendarIcon__sckD9,
+.NotesTab_clockIcon__0P7aU,
+.NotesTab_notesIcon__vXptk {
+  margin-right: 4px;
+  font-size: 14px;
+}
+
+.NotesTab_siteVisitValue__Mb_tY {
+  color: #1a202c;
+  font-size: 14px;
+  flex: 1;
+}
+
+.NotesTab_addMeasurementsButton__YqeMJ {
+  align-self: flex-start;
+  margin-left: 16px;
+  padding: 8px 16px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  color: #4a5568;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+  margin-bottom: 8px;
+}
+
+.NotesTab_addMeasurementsButton__YqeMJ:hover {
+  background: #f7fafc;
+  border-color: #cbd5e0;
+}
+
+.NotesTab_siteVisitTimestamp__GAUGk {
+  margin-left: 16px;
+  font-size: 12px;
+  color: #a0aec0;
+}
+
+/* Notes Editor Styles */
+.NotesTab_noteInputContainer__vFTzT {
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: auto;
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+}
+
+.NotesTab_notesToolbar__gtCnk {
+  display: flex;
+  padding: 8px;
+  border-bottom: 1px solid #e2e8f0;
+  background-color: #f8fafc;
+}
+
+.NotesTab_toolbarButton__AEZ7U {
+  background: none;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  color: #4a5568;
+  font-size: 14px;
+  margin-right: 4px;
+  border-radius: 4px;
+}
+
+.NotesTab_toolbarButton__AEZ7U:hover {
+  background-color: #e2e8f0;
+}
+
+.NotesTab_notesTextarea__7SGaX {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  font-size: 14px;
+  min-height: 100px;
+  resize: vertical;
+  outline: none;
+}
+
+.NotesTab_notesActions__p9i6R {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.NotesTab_cancelButton__isImd {
+  padding: 8px 16px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  color: #4a5568;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.NotesTab_cancelButton__isImd:hover {
+  background: #f7fafc;
+}
+
+.NotesTab_saveButton__ssH8N {
+  padding: 8px 24px;
+  background: #4299e1;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.NotesTab_saveButton__ssH8N:hover {
+  background: #3182ce;
+}
+
+.NotesTab_notesList__eShlo {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.NotesTab_noteCard__XL_rK {
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.NotesTab_noteContent__gfci4 {
+  margin-bottom: 8px;
+}
+
+.NotesTab_noteFooter__Mq2to {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #64748b;
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/DealSidebar/tabs/QuotationsTab.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************/
+/* QuotationsTab.module.css */
+
+.QuotationsTab_container__p1A8Z {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Container styles */
+.QuotationsTab_container__p1A8Z {
+  padding: 0;
+}
+
+/* Timeline Styles */
+.QuotationsTab_timeline__nZzKR {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.QuotationsTab_timelineStage__NfnWE {
+  flex: 1;
+  text-align: center;
+}
+
+.QuotationsTab_stageCard__AeNYm {
+  background-color: #f9d975;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 0 4px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.QuotationsTab_stageStatus__4gT7j {
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.QuotationsTab_stageCompany__Prg9A {
+  font-size: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Document Container */
+.QuotationsTab_documentsContainer__i9Ht8 {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #f8fafc;
+}
+
+/* Document Cards */
+.QuotationsTab_documentCard__7aIQ5 {
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: white;
+  margin-bottom: 8px;
+}
+
+.QuotationsTab_documentHeader__bslEb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.QuotationsTab_pendingLabel__Zc69a {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 500;
+  color: #4a5568;
+}
+
+.QuotationsTab_pendingIcon__mliJw {
+  margin-right: 6px;
+}
+
+.QuotationsTab_closeButton__mq1uu {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #64748b;
+}
+
+.QuotationsTab_documentContent__mhPqO {
+  padding: 12px 12px 16px;
+}
+
+.QuotationsTab_pendingMessage__3gzAC {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #1a202c;
+}
+
+.QuotationsTab_pendingSubMessage__wintC {
+  font-size: 12px;
+  color: #64748b;
+}
+
+/* Document Info */
+.QuotationsTab_documentInfo__abX0V {
+  display: flex;
+  align-items: center;
+  padding: 12px 12px 8px;
+}
+
+.QuotationsTab_documentIcon__lGlG_ {
+  margin-right: 12px;
+  font-size: 18px;
+  color: #4a5568;
+}
+
+.QuotationsTab_documentDetails__1Wk0Z {
+  flex: 1;
+}
+
+.QuotationsTab_documentName__TzoFz {
+  font-size: 14px;
+  margin-bottom: 2px;
+  color: #1a202c;
+}
+
+.QuotationsTab_documentDate__exXJ8 {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.QuotationsTab_documentActions__ZEyzy {
+  padding: 0 12px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: none;
+}
+
+.QuotationsTab_actionButton__YLKY1 {
+  padding: 4px 12px;
+  background: #e2e8f0;
+  border: none;
+  border-radius: 4px;
+  color: #4a5568;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.QuotationsTab_documentMessage__14m8s {
+  font-size: 11px;
+  color: #64748b;
+  flex: 1;
+  margin-left: 8px;
+  line-height: 1.3;
+}
+
+/* Final Document */
+.QuotationsTab_finalDocument__j4mQP {
+  border: 1px solid #e2e8f0;
+  margin-bottom: 0;
+}
+
+.QuotationsTab_finalLabel__SWJ7l {
+  background-color: #f0fff4;
+  color: #38a169;
+  padding: 6px 12px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.QuotationsTab_checkIcon__5LReT {
+  margin-right: 6px;
+  font-weight: bold;
+}
+
+.QuotationsTab_downloadButton__bOJ_K,
+.QuotationsTab_shareButton__vdGUR {
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 4px 8px;
+  color: #4a5568;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.QuotationsTab_shareButton__vdGUR {
+  display: flex;
+  align-items: center;
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/DealSidebar/styles.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+/* DealSidebar styles */
+.styles_container__EFtHl {
+  width: 320px;
+  background: #fff;
+  padding: 0;
+  border-left: 1px solid #e2e8f0;
+  height: calc(100vh - 57px);
+  display: flex;
+  flex-direction: column;
+}
+
+.styles_content__SCOAP {
+  flex: 1;
+  overflow-y: auto;
+  padding: 24px;
+} 
